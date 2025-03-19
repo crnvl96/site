@@ -1,10 +1,9 @@
 ---
-import { featuredArticles, featuredProjects } from "../lib/featured";
+import { featuredArticles } from "../lib/featured";
 import { GLOBAL } from "../lib/variables";
 import Layout from "../layouts/Layout.astro";
 import Hero from "../components/home/Hero.astro";
 import Section from "../components/common/Section.astro";
-import FeaturedProjects from "../components/home/FeaturedProjects.astro";
 import FeaturedArticles from "../components/home/FeaturedArticles.astro";
 ---
 
@@ -23,7 +22,7 @@ import FeaturedArticles from "../components/home/FeaturedArticles.astro";
       property="og:description"
       content={GLOBAL.longDescription}
     />
-    <meta property="og:image" content={`${GLOBAL.rootUrl}/zaggonaut.png`} /> 
+    <meta property="og:image" content={`${GLOBAL.rootUrl}/zaggonaut.png`} />
     <meta property="og:url" content={GLOBAL.rootUrl} />
     <meta name="twitter:card" content="summary_large_image" />
     <meta
@@ -41,9 +40,6 @@ import FeaturedArticles from "../components/home/FeaturedArticles.astro";
   </Fragment>
   <Section class="my-16">
     <Hero />
-  </Section>
-  <Section>
-    <FeaturedProjects featuredProjects={featuredProjects} />
   </Section>
   <Section>
     <FeaturedArticles featuredArticles={featuredArticles} />

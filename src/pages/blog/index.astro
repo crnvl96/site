@@ -38,14 +38,14 @@ import { articles } from "../../lib/list";
     </div>
     <ul>
       {
-        articles.map((project) => (
+        articles.map((article) => (
           <li>
             <ArticleSnippet
-              title={project.title}
-              description={project.description}
-              duration={`${project.time} min`}
-              url={project.filename}
-              timestamp={project.timestamp}
+              title={article.title}
+              description={article.description}
+              duration={`${article.time} min`}
+              url={article.filename}
+              timestamp={article.timestamp}
             />
           </li>
         ))

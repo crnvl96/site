@@ -17,7 +17,7 @@ await liveExport.start({
   live: true,
   bookId: INKDROP_BOOKID_BLOG,
   preProcessNote: ({ note, frontmatter, tags }) => {
-    frontmatter.layout = '../../layouts/ProjectLayout.astro'
+    frontmatter.layout = '../../layouts/BlogLayout.astro'
     frontmatter.title = note.title
     frontmatter.timestamp = new Date(note.createdAt).toISOString()
     frontmatter.tags = (() => {

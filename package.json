@@ -7,8 +7,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "live-import-blog": "node --experimental-vm-modules tools/import-blog.mjs",
-    "live-import-projects": "node --experimental-vm-modules tools/import-projects.mjs"
+    "live-import": "node --experimental-vm-modules tools/import.mjs"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.0",
