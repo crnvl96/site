@@ -1,23 +1,4 @@
-Check out [the theme website](https://zaggonaut.dev) to give it a spin!
+Once upon a time, there was a programmer who tried to replace their personal Ruby-based blog with JavaScript.
+He failed miserably. The end.
 
-
-### Header Options
-
-```md
----
-public: true
-description: A retro-inspired theme for Astro, built using TypeScript, TailwindCSS, and Astro.
-tags: ["astro", "portfolio", "open-source"]
-featured: true
----
-```
-
-```md
----
-public: true
-description: HTML is the foundation of all websites. This guide will walk you through creating your first simple website using HTML.
-tags: ["code", "html"]
-featured: true
-githubUrl: https://some-url
----
-```
+Jokes aside, this project came from a brief exploration with the static site generator [Astro](https://docs.astro.build/en/getting-started/). Although, after playing around a bit, I decided to stick with what I was already using previously, I am keeping this code here for any future need or reference, mine or anyone else's on the same endeavor.
